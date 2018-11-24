@@ -5,11 +5,8 @@ client.on('message', message => {
     if (message.content == "#play") {
         var x = ["Royal",
 "DeathGames",
-"زيرو كنج",
 "أرض الأحلام",
 "ألبرازيل",
-"العراق",
-"ألمملكة ألعربية ألسعودية",
 "القسطنطينية",
 "النهاية",
 "امازون",
@@ -21,14 +18,16 @@ client.on('message', message => {
 "عش العصفور",
 "هلا بلخميس",
 "الحوت الأزرق",
+"YouTube",
+"Discord",
+"M7moudRoyal",
+"RoyalServer",
+"اساطير محمود رويال",
 ];
         var x2 = ['Royal',
         "DeathGames",
-        "زيرو كنج",
         "أرض الأحلام",
 		"ألبرازيل",
-		"العراق",
-		"ألمملكة ألعربية ألسعودية",
 		"القسطنطينية",
 		"النهاية",
 		"امازون",
@@ -40,6 +39,11 @@ client.on('message', message => {
 		"عش العصفور",
 		"هلا بلخميس",
 		"الحوت الأزرق",
+                "YouTube",
+		"Discord",
+		"M7moudRoyal",
+		"RoyalServer",
+		"اساطير محمود رويال",
         
         
         
@@ -77,7 +81,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Royal ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Ryoal | `,"http://twitch.tv/YouTube")
+client.user.setGame(`Ryoal Server `,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 });
 
