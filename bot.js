@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 client.on('message', message => {
-    if (message.content == "#fast") {
+    if (message.content == "#play") {
         var x = ["Royal",
 "DeathGames",
 "زيرو كنج",
@@ -77,7 +77,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Royal ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Ryoal | ${client.guilds.size} ${client.users.size}`,"http://twitch.tv/YouTube")
+client.user.setGame(`Ryoal | `,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 });
 
