@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 client.on('message', message => {
-    if (message.content == "#play") {
+    if (message.content == "#اسرع") {
         var x = ["Royal",
 "DeathGames",
 "أرض الأحلام",
