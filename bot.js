@@ -52,10 +52,10 @@ client.on('message', message => {
         
         var x3 = Math.floor(Math.random()*x.length)
         message.channel.send(` اول شخص يكتب :  __**${x[x3]}**__
-لديك 15 ثانية للاجابة`).then(msg1=> {
+لديك 10 ثانية للاجابة`).then(msg1=> {
             var r = message.channel.awaitMessages(msg => msg.content == x2[x3], {
                 maxMatches : 1,
-                time : 15000,
+                time : 10000,
                 errors : ['time']
             })
         r.catch(() => {
