@@ -84,20 +84,6 @@ client.on('ready', () => {
 client.user.setGame(`Ryoal Server `,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 
-//client.on('message', message => {
-      if(message.author.bot) return;
-if (message.content.startsWith(prefix + 'top')) {
-    let _top = 1;
-     let topp = Object.values(points);
- let top = topp.slice(0, 10).map(users => `**\`.${_top++}\` | <@${users.id}> \`XP: ${users.points}\`**`).sort((a, b) => a > b).join('\n');
-    const prefixlor = new Discord.RichEmbed()
-      .setTitle("Leaderboard")
-      .setAuthor(client.user.username, client.user.avatarURL)
-      .setDescription(top,true)
-   
-      message.channel.sendEmbed(prefixlor)
-}
-  
 });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
