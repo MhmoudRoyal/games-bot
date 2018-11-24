@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 client.on('message', message => {
-    if (message.content == "#اسرع") {
+    if (message.content == "!play") {
         var x = ["Royal",
 "DeathGames",
 "أرض الأحلام",
@@ -85,7 +85,7 @@ client.user.setGame(`Ryoal Server `,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 });
 
-//client.on('#توب', message => {
+//client.on('!top', message => {
       if(message.author.bot) return;
 if (message.content.startsWith(prefix + 'top')) {
     let _top = 1;
