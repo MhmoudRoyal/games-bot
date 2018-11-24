@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";
 client.on('message', message => {
-    if (message.content == "$fast") {
-        var x = ["DreamKing",
+    if (message.content == "#fast") {
+        var x = ["Royal",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
@@ -22,7 +22,7 @@ client.on('message', message => {
 "هلا بلخميس",
 "الحوت الأزرق",
 ];
-        var x2 = ['DreamKing',
+        var x2 = ['Royal',
         "DeathGames",
         "زيرو كنج",
         "أرض الأحلام",
@@ -72,12 +72,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
+      console.log(`Cyhper Script By : ROYAL`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Royal ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dream | ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/YouTube")
+client.user.setGame(`Ryoal | ${client.guilds.size} ${client.users.size}`,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 });
 
