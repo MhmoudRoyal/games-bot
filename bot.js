@@ -83,9 +83,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`Ryoal Server `,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
-});
 
-//client.on('!top', message => {
+//client.on('message', message => {
       if(message.author.bot) return;
 if (message.content.startsWith(prefix + 'top')) {
     let _top = 1;
